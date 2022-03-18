@@ -1,0 +1,308 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    background-color: white;
+    font-family: 'Montserrat',sans-serif;
+}
+
+/* container */
+#container{
+    min-height: 100%;
+}
+#main{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+/* footer */
+#footer{ 
+    background-color: rgb(0, 0, 0);
+    /* position: relative; */
+    height: 100px; 
+    /* margin-top: -100px; */
+    clear: both;
+    text-align: center;
+    margin-top: 0;
+    
+}
+.footer-item{
+    margin: 0;
+    padding: 2%;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+/* navbar */
+
+.nav-list{
+    background: rgb(255, 255, 255) ;
+    /* background: black; */
+    margin: 0;
+    padding: 1rem 0;
+    border-radius: var(--radius);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.nav-item{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav-item:first-child{
+    font-weight: 900;
+    font-size: 2rem;
+    margin-right: auto;
+    margin-left: 2rem;
+}
+
+.nav-item:nth-child(2){
+    margin-right: auto;
+}
+
+
+/* intro */
+.main-header{
+    text-align: center;
+     /* background-color: rgb(241, 98, 98); */
+     background-color:black ; 
+}
+
+.img{
+    padding-top: 1.5%;
+    float: right;
+    margin-right: 20%;
+}
+
+.intro{
+    display: inline-block;
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom:2%;
+}
+
+.intro-head{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.order-btn{
+    font-size: 1.5rem;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 2%;
+    /* margin-bottom: -10%; */
+    transition: all 0.4s;
+}
+
+.order-btn:hover{
+    transform: translateY(-8px);
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+/* special dishes */
+
+.dishes{
+    margin-top: 3%;
+    text-align: center;
+}
+
+.dishes-head{
+    font-size: 2rem;
+    color: rgb(100, 99, 99);
+}
+
+/* load more button */
+.load{
+    text-align: center;
+    margin: 5%;
+}
+
+.more-btn{
+    padding: 0.35%;
+    transition: all 0.4s;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+}
+
+.more-btn:hover{
+    transform: translateY(-3px);
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/* card */
+.container{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.card{
+    box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.205);
+    width: 300px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 15px;
+    padding:1%;
+    flex-wrap: wrap;
+    transition: all 0.4s ease-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    /* background-color: rgb(233, 77, 77); */
+    background-color:rgb(104, 104, 104) ;
+    color:white;
+}
+
+/* .card:hover a{ 
+    background-color: rgb(255, 255, 255);
+    color: black;
+}*/
+
+.card-image{
+    border-radius: 15px;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.car-1{
+    background-image: url("images/chicken_burger.png");
+}
+
+.one{
+    background-image: url("images/veg.jpg");
+}
+
+.two{
+    background-image: url("images/chicken.jpg");
+}
+
+.three{
+    padding: 0;
+    margin: 0;
+    background-image: url("images/veg-cheese.jpg");
+}
+
+.four{
+    background-image: url("images/chicken-chese.jpg");
+}
+
+.five{
+    background-image: url("images/chicken-tandoori.jpg");
+}
+
+.six{
+    background-image: url("images/paneer.jpg");
+}
+
+.seven{
+    background-image: url("images/cheesy-fries.jpg");
+}
+
+.eight{
+    background-image: url("images/veg-creamy-italian-fries.jpg");
+}
+
+.nine{
+    background-image: url("images/chicken-fries.jpg");
+}
+.ten{
+    background-image: url("images/veggie-strips.jpg");
+}
+.eleven{
+    background-image: url("images/mango-shake.jpg");
+}
+.twelve{
+    background-image: url("images/chocolate-shake.jpg");
+}
+
+.card h2{
+    text-align: center;
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    transition: all 0.4s;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 0.4rem 0.4rem 2rem rgba(0, 0, 0, 0.205);
+    background-color: rgb(111, 201, 93);
+    border-radius: 100px;
+    padding: 15px 20px;
+    display: block;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card a:hover{
+    transform: translatey(-8px);
+}
+
+.card a:active{
+    transform: translatey(-5px);
+}
+
+@media (max-width:895px) {
+    .nav-list{
+        margin-left: auto;
+        flex-direction: column;
+    }
+    .container{
+        margin-left: 5%;
+        margin-right:5%;
+        justify-content: center;
+    }
+    .nav-item{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .nav-item:nth-child(2){
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .nav-item:first-child{
+        margin-left: auto;
+    }
+}
+
+@media (max-width:1104px) {
+    .img{
+        text-align: center;
+        float: none;
+    }
+    .main-header{
+        text-align: center;
+    }
+}

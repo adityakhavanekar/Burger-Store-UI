@@ -1,0 +1,168 @@
+.body1{
+    padding:3%;
+    text-align: center;
+    
+    background: black; 
+ 
+}
+
+
+
+.head1 h2{
+    color: white;
+    margin-bottom: 2%;
+}
+
+.d-btn1{
+    display: inline;
+    
+}
+
+.d-btn2{
+    display: inline;
+    
+}
+
+.d-menu{
+    font-size: 1.2rem;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.d-menu:hover{
+    background-color: rgb(255, 174, 0);
+    color: black;
+}
+
+/* body 2 */
+
+.body2{
+    padding-bottom: 3%;
+    
+}
+
+.body2 h3{
+    margin-left: 5%;
+    font-size: 1.5rem;
+}
+
+.dine{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background:white;
+}
+
+.card-image{
+    
+    background-size: cover;
+}
+
+.card-in-one{
+    background-image: url("images/deal-dine-1.jpg");
+}
+
+.card-in-two{
+    background-image: url("images/deal-dine-2.jpg");
+}
+
+.card-in-three{
+    background-image: url("images/deal-dine-3.jpg");
+}
+
+.card-in-four{
+    background-image: url("images/deal-dine-4.jpg");
+}
+
+.take{
+    margin-left: 5%;
+    display: flex;
+    margin-right: 5%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-t-one{
+    background-image: url("images/deal-take-1.jpg");
+}
+.card-t-two{
+    background-image: url("images/deal-take-2.jpg");
+}
+.card-t-three{
+    background-image: url("images/deal-take-3.jpg");
+}
+.card-t-four{
+    background-image: url("images/deal-take-4.jpg");
+}
+
+/* body3 */
+.body3{
+    background-color: black;
+    padding-bottom: 3%;
+    
+    padding-top: 2%;
+}
+
+.body3 h3{
+    color: white;
+    margin-left: 5%;
+    font-size: 1.5rem;
+}
+
+.limited{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+}
+
+.card-lim-one{
+    background-image: url("images/limited-deal-1.JPG");
+}
+
+.card-lim-two{
+    background-image: url("images/limited-deal-2.JPG");
+}
+
+.card-lim-three{
+    background-image: url("images/limited-deal-3.JPG");
+}
+
+.card-lim-four{
+    background-image: url("images/limited-deal-4.JPG");
+}
+
+
+/* body4 */
+.body4{
+    padding-bottom: 3%;
+    padding-top: 2%;
+}
+
+.body4 h3{
+    color: rgb(0, 0, 0);
+    margin-left: 5%;
+    font-size: 1.5rem;
+}
+
+.offers{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ao{
+    padding-top:0;
+    padding-bottom: 0;
+}

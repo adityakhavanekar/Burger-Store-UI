@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="contact.css">
+
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="contactus.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Document</title>
+
+    <style>
+        span.erspan{
+            color: red;
+            font-size: 0.8rem;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div id="main">
+             <nav> 
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" style="color: rgb(0, 0, 0);">AK's <span style="color: rgb(255, 217, 0);">Burger Point</a></span></li>
+                    <li class="nav-item"><img src="https://img.icons8.com/ios-filled/64/000000/hamburger.png"/></li>
+                    <li class="nav-item"><a href="index.html" style="color: rgb(0, 0, 0);">HOME</a></li>
+                    <li class="nav-item"><a href="Deals.html" style="color: rgb(0, 0, 0);">DEALS</a></li>
+                    <li class="nav-item"><a href="aboutus.html" style="color: rgb(0, 0, 0);">ABOUT</a></li>
+                    <li class="nav-item"><a href="contactus.html" style="color: rgb(0, 0, 0);">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="full">
+            <div class="fl-card">
+
+                <div class="first">
+                    <div class="con-head">
+                        <h1>Fill the form. <br>It's easy. </h1>
+                        <p style="color: grey;">We are here to answer any questions you may have. Reach out to us and we'll respond as soon as we can.</p>
+                    </div>
+                    <div class="con-main">
+                        <form action="" id="con-form">
+                           <label for="name" class="name n1">Name<span style="color: red;"><sup>*</sup></span>:</label>
+                           <span id="nameEr" class="erspan"></span><br>
+                           <input type="text" id="nameip" class="name n2" name="name" autocomplete="off"><br>
+                           
+
+                           <label for="mail" class="name n1">Email<span style="color: red;"><sup>*</sup></span>:</label>
+                           <span id="mailEr" class="erspan"></span><br>
+                           <input type="text" id="mailip" class="name n2" name="mail" autocomplete="off"><br>
+
+                           <label for="sub" class="name n1">Subject<span style="color: red;"><sup>*</sup></span>:</label>
+                           <span id="subEr" class="erspan"></span><br>
+                           <input type="text" id="subip" class="name n2" name="sub" autocomplete="off"><br>
+
+                           <label for="msg" class="name n1">Message:</label><br>
+                           <textarea name="msg" id="tarea" cols="30" rows="8" class="name n2" style="height: 100px; border-bottom: 2px solid blue;"></textarea><br>
+
+                           <button type="submit" class="name" id="sub-btn"  >Send</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="second">
+                    <div class="sec-in">
+                        <div class="email-sec">
+                            <h2>EMAIL</h2>
+                            <i class="fas fa-envelope"></i> <p style="display: inline-block;">info@aksburgerpoint.com</p>
+                        </div>
+                        <div class="phone-sec">
+                            <h2>Phone:</h2>
+                            <i class="fas fa-phone"></i> <p style="display: inline-block;">+918974562121</p>
+                        </div>
+                        <div class="add-sec">
+                            <h2>Address:</h2>
+                            <i class="fas fa-map-marker-alt"></i> <p style="display: inline-block;">4th Floor, The Ruby, 29, Mumbai, Maharashtra</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <footer id="footer">
+        <p class="footer-item">TM & Copyright 2020 AK Burger Point India Limited. All Rights Reserved</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
